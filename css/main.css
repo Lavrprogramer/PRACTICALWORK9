@@ -159,6 +159,14 @@ h3{
 	display: flex;
 	justify-content: space-between;
 }
+.img1 , .img2 , .img3{
+
+	transition: all 0.5s ease;
+}
+
+.img1:hover , .img2:hover , .img3:hover {
+    transform: scale(1.1);
+}
 
 
 .footer-text{
